@@ -86,9 +86,7 @@ class CountdownTimer {
 
   setTimer() {
     setInterval(() => {
-      console.log();
       let time = this.targetDate - Date.now();
-      console.log(time);
       this._updateTime(time);
     }, 1000);
   }
